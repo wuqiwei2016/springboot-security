@@ -1,6 +1,0 @@
-server:
-  port: 8060
-#session
-spring:
-  session:
-    store-type: none

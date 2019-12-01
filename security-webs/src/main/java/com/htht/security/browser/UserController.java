@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.htht.securitywebs;
+package com.htht.security.browser;
 
 
 import org.springframework.web.bind.annotation.*;
