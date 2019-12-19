@@ -1,14 +1,13 @@
 package com.htht.security.browser.authentication;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.htht.core.properties.LoginType;
-import com.htht.core.properties.SecurityProperties;
+import com.htht.security.browser.core.properties.LoginType;
+import com.htht.security.browser.core.properties.SecurityProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
-import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.ServletException;

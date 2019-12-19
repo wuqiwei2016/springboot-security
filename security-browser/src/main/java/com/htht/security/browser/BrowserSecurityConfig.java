@@ -1,7 +1,7 @@
 package com.htht.security.browser;
 
 
-import com.htht.core.properties.SecurityProperties;
+import com.htht.security.browser.core.properties.SecurityProperties;
 import com.htht.security.browser.authentication.HthtAuthenctiationFailureHandler;
 import com.htht.security.browser.authentication.HthtAuthenticationSuccessHandler;
 import org.springframework.beans.factory.annotation.Autowired;

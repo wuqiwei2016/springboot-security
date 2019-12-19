@@ -4,8 +4,8 @@
 package com.htht.security.browser.authentication;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.htht.core.properties.LoginType;
-import com.htht.core.properties.SecurityProperties;
+import com.htht.security.browser.core.properties.LoginType;
+import com.htht.security.browser.core.properties.SecurityProperties;
 import com.htht.security.browser.support.SimpleResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

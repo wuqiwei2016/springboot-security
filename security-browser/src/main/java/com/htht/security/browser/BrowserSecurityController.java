@@ -1,7 +1,7 @@
 package com.htht.security.browser;
 
 
-import com.htht.core.properties.SecurityProperties;
+import com.htht.security.browser.core.properties.SecurityProperties;
 import com.htht.security.browser.support.SimpleResponse;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
