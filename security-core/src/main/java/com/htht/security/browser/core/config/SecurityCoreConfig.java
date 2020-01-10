@@ -1,15 +1,14 @@
 /**
  * 
  */
-package com.htht.core.config;
+package com.htht.security.browser.core.config;
 
-import com.htht.core.properties.SecurityProperties;
+import com.htht.security.browser.core.properties.SecurityProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author zhailiang
+ * @author wqw
  *
  */
 @Configuration

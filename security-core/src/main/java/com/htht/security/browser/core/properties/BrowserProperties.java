@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.htht.core.properties;
+package com.htht.security.browser.core.properties;
 
 /**
  * 浏览器的配置项
@@ -11,7 +11,10 @@ public class BrowserProperties {
 	private String loginPage = "/imooc-signIn.html";
 	
 	private LoginType loginType = LoginType.JSON;
-	
+
+	/**
+	 * 记住我的时间(1小时)
+	 */
 	private int rememberMeSeconds = 3600;
 
 	public String getLoginPage() {

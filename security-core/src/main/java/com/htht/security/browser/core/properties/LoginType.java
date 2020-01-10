@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.htht.core.properties;
+package com.htht.security.browser.core.properties;
 
 /**
  * @author wqw

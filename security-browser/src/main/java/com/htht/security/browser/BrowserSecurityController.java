@@ -35,6 +35,7 @@ public class BrowserSecurityController {
 
     @Autowired
     private SecurityProperties securityProperties;
+
     /**
      * 当需要身份认证时，跳转到这里
      *
@@ -52,7 +53,8 @@ public class BrowserSecurityController {
             String targetUrl = savedRequest.getRedirectUrl();
             logger.info("引发跳转的请求是:"+targetUrl);
             if(StringUtils.endsWithIgnoreCase(targetUrl, ".html")){
-                redirectStrategy.sendRedirect(request, response, securityProperties.getBrowser().getLoginPage());//这块是可配置的跳转登录页面，可以用系统里面的，也可以用自己配置的登录页面
+                //securityProperties.getBrowser().getLoginPage()这块是可配置的跳转登录页面，可以用系统里面的，也可以用自己配置的登录页面
+                redirectStrategy.sendRedirect(request, response, securityProperties.getBrowser().getLoginPage());
             }
         }
         return new SimpleResponse("访问的服务需要身份认证，请引导用户到登录页");
